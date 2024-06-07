@@ -1,0 +1,127 @@
+.connected-container {
+  margin-top: 20px;
+}
+
+.connected-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.connected-account {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.candidates-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.candidates-table th,
+.candidates-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.image {
+  max-width: 100px;
+  margin: 15px;
+}
+
+.login-button {
+  padding: 8px 16px; /* Ajustez le padding pour réduire la taille du bouton */
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+.input-container input {
+  flex: 1;
+  padding: 12px; /* Ajustez le padding pour augmenter la taille de l'input */
+  margin-right: 10px;
+  font-size: 16px; /* Ajustez la taille de la police pour augmenter la taille de l'input */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 30px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.connected-container {
+  margin-top: 20px;
+}
+
+.connected-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.connected-account {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.candidate-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.candidate-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.candidate-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.candidate-details {
+  margin-top: 10px;
+}
+
+.candidate-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.candidate-vote-count {
+  font-size: 16px;
+  color: #555;
+}
+.candidate-image {
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+}
